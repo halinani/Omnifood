@@ -106,7 +106,8 @@
   font-size: 2rem;
 }
 
-.delivered-text span {
+.delivered-text span,
+.container.center-text span {
   color: #b8651b;
   font-weight: 600;
 }
@@ -159,4 +160,105 @@
   line-height: 1.6;
   font-size: 1.8rem;
   margin-top: 2rem;
+}
+
+/* ************************** */
+/* FEATURED IN SECTION */
+/* ************************** */
+.featured-in-heading {
+  margin-top: 4.4rem;
+}
+
+.featured-in-heading {
+  text-align: center;
+  margin: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #888;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.logos img {
+  height: 3rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+
+/* ************************** */
+/* MEALS SECTION */
+/* ************************** */
+.meals-section {
+  margin: 9.6rem 0;
+}
+.meal {
+  box-shadow: 0 2.4rem 3.2rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+.meal:hover {
+  box-shadow: 0 2.4rem 3.2rem rgba(0, 0, 0, 0.03);
+  transform: translate(0, -0.5rem);
+}
+
+.meal-img {
+  width: 100%;
+}
+.meal-content {
+  padding: 3rem;
+}
+.icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #e67e22;
+}
+.meal-name {
+  color: #333;
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 1.6rem;
+}
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.meal-attribute {
+  display: flex;
+  font-size: 1.8rem;
+  align-items: center;
+  gap: 2rem;
+}
+.tag-container {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+.tag--vegetarian {
+  background-color: #51cf66;
+}
+.tag--vegan {
+  background-color: #94d82d;
+}
+.tag--paleo {
+  background-color: #ffd43b;
 }
