@@ -314,3 +314,66 @@
 .gallery-img:hover {
   transform: scale(1.1);
 }
+
+/* ************************** */
+/* PRICING SECTION */
+/* ************************** */
+.section-pricing {
+  padding: 9.6rem 0;
+}
+.plan-container {
+}
+.plan-header {
+  text-align: center;
+}
+.plan {
+  width: 75%;
+  padding: 1.6rem;
+  border-radius: 11px;
+}
+.plan-starter {
+  border: 2px solid #f8d8bd;
+}
+.plan-complete {
+  background-color: #fdf2e9;
+  position: relative;
+  overflow: hidden;
+}
+
+.plan-complete::after {
+  content: "Best price";
+  text-transform: uppercase;
+  background-color: #ffd43b;
+  padding: 0.8rem 3.2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 6%;
+  right: -8%;
+}
+.plan-name {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #b8651b;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+.plan-price {
+  font-size: 6.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+.plan-price span {
+  font-size: 3.2rem;
+}
+
+.plan-text {
+  font-size: 1.6rem;
+  color: #777;
+}
+.sign-up {
+  margin-top: 4.8rem;
+  text-align: center;
+}
