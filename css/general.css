@@ -94,8 +94,10 @@ body {
   column-gap: 6.4rem;
   row-gap: 9.6rem;
 }
-
-.grid-align-vertical {
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+.grid .grid-align-vertical {
   align-items: center;
 }
 
@@ -153,7 +155,7 @@ body {
   display: flex;
   align-items: center;
   gap: 2rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .list-icon {
@@ -186,10 +188,17 @@ body {
 .margin-to-the-top {
   margin-top: 4.4rem !important;
 }
+.margin-to-the-bottom {
+  margin-bottom: 4.4rem !important;
+}
 
 .center-text {
   text-align: center;
 }
 strong {
   font-weight: 500;
+}
+.text-cross-out {
+  text-decoration: line-through;
+  color: #999;
 }
