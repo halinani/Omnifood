@@ -48,6 +48,10 @@ body {
   font-size: 400;
   color: #555;
 }
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.6rem rgba(230, 125, 34, 0.5);
+}
 
 /* ************************** */
 /* GENERAL AND RE-USABLE CODE */
@@ -111,14 +115,20 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.btn,
 .btn:link,
 .btn:visited {
+  display: inline-block;
   text-decoration: none;
   padding: 1.6rem 3.2rem;
   font-size: 2rem;
   border-radius: 9px;
   font-weight: 600;
   transition: all 0.3s;
+
+  /* more for btn */
+  border: none;
+  font-family: inherit;
 }
 
 .btn--full:link,
