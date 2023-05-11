@@ -1,3 +1,7 @@
+/* ************************** */
+/* MEDIA QUERY FOR SMALL COMPUTERS*/
+/* ************************** */
+
 @media (max-width: 84em) {
   .hero {
     max-width: 120rem;
@@ -10,8 +14,39 @@
   }
 }
 
-/* 
-- Font sizes (px)
+/* ************************** */
+/* MEDIA QUERY FOR LANDSCAPE TABLETS*/
+/* ************************** */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+  .tertiary-heading {
+    font-size: 2rem;
+  }
+  .subheading {
+    font-size: 1.4rem;
+  }
+  .grid {
+    column-gap: 3.2rem;
+    row-gap: 6.4rem;
+  }
+  .hero {
+    gap: 6.4rem;
+  }
+  .nav-list {
+    gap: 2.4rem;
+  }
+  .testimonial-container {
+    padding: 9.6rem 4.4rem;
+  }
+}
+
+/* - Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
 - Spacing system (px)
