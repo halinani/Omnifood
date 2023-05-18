@@ -136,6 +136,37 @@
   }
 }
 
+/* ************************** */
+/* MEDIA QUERY FOR 704px*/
+/* ************************** */
+
+@media (max-width: 44em) {
+  .grid--4-cols,
+  .grid--3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .diets {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+  .grid--footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 4.8rem;
+  }
+  .foot-copy-right,
+  .address-col {
+    grid-column: span 3;
+    justify-self: center;
+  }
+}
+
 /* - Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 

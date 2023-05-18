@@ -346,7 +346,7 @@
   text-align: center;
 }
 .plan {
-  width: 65%;
+  width: 100%;
   border-radius: 11px;
 }
 .plan-starter {
@@ -499,6 +499,7 @@
   color: #fff;
   align-self: end;
   padding: 1.2rem;
+  margin-top: 2rem;
 }
 
 .cta-grid *:focus {
@@ -506,7 +507,7 @@
 }
 
 /* ********************** */
-/* CALL TO ACTION SECTION */
+/* Footer SECTION */
 /* ********************** */
 
 .section-footer {
