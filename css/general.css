@@ -49,6 +49,7 @@ body {
   font-size: 400;
   color: #555;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 *:focus {
   outline: none;

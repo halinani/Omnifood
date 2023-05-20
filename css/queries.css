@@ -166,6 +166,9 @@
     grid-column: span 3;
     justify-self: center;
   }
+  .plan {
+    width: 100%;
+  }
 }
 
 /* ************************** */

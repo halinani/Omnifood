@@ -297,8 +297,8 @@
 .testimonial-container {
   padding: 9.6rem;
 }
-.testimonial {
-}
+/* .testimonial {
+} */
 .testimonial-img {
   width: 6.3rem;
   border-radius: 50%;
@@ -339,14 +339,14 @@
 .section-pricing {
   padding: 9.6rem 0;
 }
-.plan-container {
-}
+/* .plan-container {
+} */
 .plan-header,
 .price-heaing {
   text-align: center;
 }
 .plan {
-  width: 100%;
+  width: 75%;
   border-radius: 11px;
 }
 .plan-starter {
